@@ -1,0 +1,24 @@
+
+#uiButton1{
+    -fx-background-color: #9575cd;
+    -fx-background-radius: 40;
+}
+#uiButton1:hover {
+    -fx-background-color: #ff9800;
+
+}
+#uiButton2 {
+    -fx-background-color: #f06292;
+    -fx-background-radius: 40;
+}
+
+#uiButton2:hover{
+    -fx-background-color: #ff9800;
+}
+
+#backButton{
+    -fx-background-color: #424242; -fx-background-radius: 40;
+}
+#backButton:hover{
+    -fx-background-color: #ff9800;
+}

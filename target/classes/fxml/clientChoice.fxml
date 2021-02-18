@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="300.0" maxWidth="600.0" prefHeight="300.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerTransition">
+    <children>
+        <ImageView fitHeight="433.0" fitWidth="786.0" layoutY="58.0">
+            <image>
+                <Image url="@../image/anime.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="backButton" layoutX="14.0" layoutY="435.0" mnemonicParsing="false" onAction="#clickClientChoiceBack" prefHeight="41.0" prefWidth="94.0" stylesheets="@../css/mystyle.css" text="Back" textFill="WHITE">
+            <font>
+                <Font name="Tahoma Bold" size="19.0" />
+            </font>
+        </Button>
+        <AnchorPane layoutX="80.0" layoutY="69.0" prefHeight="366.0" prefWidth="333.0">
+            <children>
+                <Button fx:id="uiButton1" layoutX="77.0" layoutY="21.0" mnemonicParsing="false" onAction="#clickClientChoiceLogin" prefHeight="129.0" prefWidth="178.0" stylesheets="@../css/mystyle.css" text="Login" textFill="WHITE">
+                    <font>
+                        <Font name="Tahoma Bold" size="37.0" />
+                    </font>
+                </Button>
+                <Button fx:id="uiButton2" layoutX="77.0" layoutY="173.0" mnemonicParsing="false" onAction="#clickClientChoiceJoin" prefHeight="129.0" prefWidth="178.0" stylesheets="@../css/mystyle.css" text="Join" textFill="WHITE">
+                    <font>
+                        <Font name="Tahoma Bold" size="37.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
